@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>bài 1</legend>
+      <button onclick="input_1()">run</button>
+    </fieldset>
+<!-- ----------------------------------------------------- -->
+    <fieldset>
+        <legend>bài 2</legend>
+        <button onclick="input_2()">run</button>
+        <p id="result_2"> </p>
+      </fieldset>
+<!-- --------------------------------------------------------- -->
+    <fieldset>
+        <legend>bài 3</legend>
+        <button onclick="input_3()">run</button>
+        <p id="result_3"> </p>
+    </fieldset>
+<!-- -------------------------------------------------------- -->
+    <fieldset>
+        <legend>bài 4</legend>
+        <p> arr = [2, 8, 7, 3, 9, 1, 5]</p>
+        <button onclick="input_4()">run</button>
+        <p id="result_4"> </p>
+    </fieldset>
+<!-- ---------------------------------------------------------- -->
+<fieldset>
+    <legend>bài 5</legend>
+    <input type="text"  id="input_name" placeholder=" mời nhập tên nhân viên ">
+    <input type="text" id="input_age" placeholder=" mời nhập tuổi nhân viên ">
+    <button onclick="add()">add</button>
+    <div class="edit">   
+        <input type="text"  id="name_edit"  >
+        <input type="text" id="age_edit" >
+        <button onclick="Update()">update</button>
+    </div>
+ 
+    <div id="result_5">
+       <div class="list">
+        <thead>
+            <th>tên</th>
+            <th>tuổi</th>
+            <th>nút chức năng </th>
+        </thead>
+        <tbody class="show_list">
+            
+        </tbody>
+       
+       </div>
+    </div>
+</fieldset>
+    <script src="index.js"></script>
+  </body>
 </html>
