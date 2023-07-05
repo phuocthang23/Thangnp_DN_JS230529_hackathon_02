@@ -8,7 +8,7 @@ function input_1() {
     return alert(` là chuỗi đối xứng`);
   }
 }
-// ------------------------------------(2)----------------------------------------
+//* ------------------------------------(2)----------------------------------------
 function input_2() {
   const str = prompt(` xin mời nhập vào 1 câu `);
 
@@ -24,7 +24,7 @@ function input_2() {
   const str2 = arr.join(" ");
   document.getElementById("result_2").innerHTML = str2;
 }
-
+//* --------------------------------------------------(3)-------------------------------------
 function input_3() {
   const money = +prompt(" mời nhập số tiền muốn gửi ");
   const month = +prompt(" bạn muốn gửi bao nhiêu tháng");
@@ -35,7 +35,7 @@ function input_3() {
     "result_3"
   ).innerHTML = `số tiền lãi sau ${month} tháng là ${interest.toFixed(2)} VND`;
 }
-
+// * -------------------------------------------(4)------------------------------------------
 function input_4() {
   let arr = [2, 8, 7, 3, 9, 1, 5];
 
