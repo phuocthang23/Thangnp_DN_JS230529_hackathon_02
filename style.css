@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .table-wrap {
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow-x: auto;
+  }
+  
+  table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size:18px;
+    text-transform:capitalize;
+  }
+  th{
+      background: #000000d6;
+      color: #fff;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+    white-space: nowrap;
+  }
+  
+  table tbody tr:nth-child(odd) {
+      background: #69b2ebcc;
+      color: #000;
+      font-weight: 500;
+  }
+  
+  .box-wrap {
+    padding: 0px 16px;
+  }/*# sourceMappingURL=main.css.map */
+
+  .header{
+    max-width: 1000px;
+    margin: 80px auto 0 auto;
+    overflow-x: auto;
+  }
+  .header h1{
+    text-align: center;
+  }
+
+  /* form div {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .input input:nth-last-child(n + 2){
+    margin: 10px 100px 10px 10px;
+    width: 200px;
+  }
+
+  input .radio {
+   margin: 0px 0px;
+  } */
+  form{
+    max-width: 1000px;
+    margin: 80px auto 0 auto;
+    overflow-x: auto;
+  }
+
+  form button {
+    padding: 5px 30px;
+  }

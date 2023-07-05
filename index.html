@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+       <div class="header">
+         <h1> Danh sách học viên </h1>
+         <div class="search-group">
+             <label for="search">Tìm kiếm tên học viên </label>
+             <input type="text" name="search" id="search">
+             <button onclick="searchSV()" class="search">search</button>
+         </div>
+       </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>stt</th>
+                            <th>tên</th>
+                            <th>email</th>
+                            <th>phone</th>
+                            <th>địa chỉ</th>
+                            <th>gender</th>
+                            <th>hành động</th>
+                            <th><button>sắp xếp</button></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- form -->
+
+            <form action="#">
+                <h1>thông tin sinh viên </h1>
+                <div class="input">
+                    <div>
+                        <label for="name">họ và tên</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">email</label>
+                        <input type="email" name="name" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">số điện thoại </label>
+                        <input type="number" name="name" id="phone">
+                    </div>
+                    <div>
+                        <label for="contry">quê quán</label>
+                        <input type="text" name="name" id="contry">
+                    </div>
+                    <div> 
+                        <label for="gende">giới tính</label>
+                            <input type="radio" class="radio"  name= "gender"  value="nam" checked="checked">nam
+                            <input type="radio" class="radio"  name= "gender" value="nữ"> nữ
+                    </div>
+                </div>
+                <button onclick="add()">lưu</button>
+            </form>
+        <script src="index.js"></script>
+    </div>
 </body>
 </html>
